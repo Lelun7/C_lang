@@ -1,0 +1,64 @@
+1. 다음 코드 중 컴파일 단계에서 에러를 잡아내는 코드는?
+(1)
+char *str = "Hello";
+str[0] = 'C';
+(2) 
+unsigned char str = "Hello";
+str[0] = 'C';
+(3)
+const char str = "Hello";
+str[0] = 'C';
+(4)
+char *str = "Hello";
+str[3] = 'H';
+답 : 3
+
+2. 다음 괄호에 들어갈 것을 고르시오
+( ) struct {
+    int month;
+    int day;
+    int year;
+} DATE;
+(1) typedef
+(2) union
+(3) enum
+(4) const
+답 : 1
+
+3. 다음 열거형에서 GREEN의 값을 고르시오.
+enum TrafficLight {
+   RED,
+    YELLOW,
+    GREEN
+};
+(1) 0
+(2) 1
+(3) 2
+(4) -1
+답: 2
+
+4. 포인터 p에 대하여 다음 중 가리키는 대상이 다른 것을 고르시오
+(1) p[0].name
+(2) p->name
+(3) *p.name
+(4) (*p).name
+답 : 3
+
+5. 
+#include <stdio.h>
+struct Point {
+    int x;
+    int y;
+};
+int main() {
+struct Point arr[3] = { {10, 20}, {30, 40}, {50, 60} };
+struct Point *p = arr;
+
+printf("%d", (p + 1)->y);
+}
+(1) 20
+(2) 30
+(3) 40
+(4) 50
+답 : 3
+
