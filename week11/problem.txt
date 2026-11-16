@@ -44,7 +44,7 @@ enum TrafficLight {
 (4) (*p).name
 답 : 3
 
-5. 
+5. 다음 코드의 출력 결과를 고르시오
 #include <stdio.h>
 struct Point {
     int x;
