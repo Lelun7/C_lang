@@ -19,11 +19,11 @@ int main() {
         return 1;
     }
 
-    printf("학생 수 입력");
+    printf("학생 수 입력 : ");
     scanf("%d",&count);
 
     for(int i = 0; i < count; i++) {
-        printf("\n%d번째 학생 이름",i+1);
+        printf("\n%d번째 학생 이름 : ",i+1);
         scanf("%49s",s.name);
         printf("점수 : ");
         scanf("%d",&s.score);
